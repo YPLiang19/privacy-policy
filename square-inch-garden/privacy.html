@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>隐私政策 - 方寸菜园</title>
-  <meta name="description" content="方寸菜园（Square Inch Garden，iOS 菜园规划应用）隐私政策：我们不收集任何个人数据，你的菜园数据只保存在你的设备上。">
+  <meta name="description" content="方寸菜园（Square Inch Garden，iOS 菜园规划应用）隐私政策：我们不收集任何个人数据，你的菜园数据保存在你的设备和你自己的 iCloud 中。">
   <link rel="icon" href="icon.png">
   <link rel="stylesheet" href="../style.css">
 </head>
@@ -22,21 +22,22 @@
   <main class="wrap">
     <article class="doc" id="zh">
       <h1>隐私政策</h1>
-      <p class="meta">适用于：方寸菜园 Square Inch Garden（iOS App）　生效日期：2026 年 10 月 5 日</p>
+      <p class="meta">适用于：方寸菜园 Square Inch Garden（iOS App）　生效日期：2026 年 10 月 8 日</p>
 
-      <p>本隐私政策说明“方寸菜园”（以下简称“本应用”）如何处理你的信息。简而言之：<strong>本应用不收集、不上传、不出售任何个人数据</strong>，你的菜园、种植、养护和收成记录只保存在你自己的设备上，开发者无法访问。</p>
+      <p>本隐私政策说明“方寸菜园”（以下简称“本应用”）如何处理你的信息。简而言之：<strong>本应用不收集、不出售任何个人数据</strong>，你的菜园、种植、养护和收成记录保存在你自己的设备上；登录 iCloud 时，也会保存在你自己 iCloud 账户的私有空间里。开发者无法访问这些数据。</p>
 
       <h2>1. 我们不收集的信息</h2>
       <ul>
         <li>本应用无需注册账号，不要求提供姓名、邮箱、手机号等任何个人信息。</li>
-        <li>本应用没有自己的服务器，不包含任何第三方统计、广告、崩溃收集或追踪 SDK，除向 Apple 天气请求你所选城市的天气预报外（见第 6 节），不会把任何数据发送到网络。</li>
+        <li>本应用没有自己的服务器，不包含任何第三方统计、广告、崩溃收集或追踪 SDK，除向 Apple 天气请求你所选城市的天气预报（见第 6 节），以及把菜园数据存入你自己的 iCloud（见第 2 节）外，不会把任何数据发送到网络。</li>
         <li>我们不会追踪你在其他公司的 App 或网站上的活动。</li>
       </ul>
 
-      <h2>2. 保存在你设备上的数据</h2>
+      <h2>2. 你的数据保存在哪里</h2>
       <ul>
         <li><strong>菜园数据：</strong>包括你选择的城市及其气候数据、你为阳台设置的温度和日照、菜地与容器（含补光灯设置）、种植记录、养护任务、收成记录（重量、日期）以及你为收成添加的照片，全部保存在本机的应用数据中。</li>
-        <li><strong>不进行云同步：</strong>本应用目前不会把数据同步到 iCloud 或任何服务器。删除本应用会同时删除这些数据；更换设备时，数据不会自动迁移。</li>
+        <li><strong>iCloud 同步：</strong>如果你的设备登录了 iCloud，上述菜园数据会通过 Apple 的 CloudKit 保存在<strong>你自己 iCloud 账户的私有数据库</strong>中，并在登录同一 Apple 账户的设备之间同步，更换设备后会自动恢复。这些数据由 Apple 按 <a href="https://www.apple.com/legal/privacy/">Apple 隐私政策</a>存储和保护，占用你的 iCloud 储存空间；只有登录你 Apple 账户的设备能读取，开发者无法查看或下载。为了及时收到其他设备上的修改，本应用会注册 Apple 推送通知服务，这类静默通知只提示“有新变化”，不含你的菜园内容，也不会显示在屏幕上。天气缓存和应用设置不会同步。</li>
+        <li><strong>关闭同步或删除 iCloud 中的数据：</strong>你可以在 iPhone“设置 &gt; [你的名字] &gt; iCloud”中关闭本应用使用 iCloud，之后新的修改只保存在本机。如需删除已存到 iCloud 的数据，请先在所有设备上删除本应用，再在“设置 &gt; [你的名字] &gt; iCloud &gt; 管理账户储存空间 &gt; 方寸菜园”中删除；仍装有本应用的设备会把本机数据重新同步上去。没有登录 iCloud 时，数据只在本机，删除本应用会同时删除这些数据。</li>
         <li><strong>天气缓存：</strong>所选城市的天气预报和每天的天气记录保存在本机，用于显示天气、预警和病虫害提示，以及主屏幕小组件。</li>
         <li><strong>应用设置：</strong>例如是否开启养护提醒和天气预警，保存在本机。</li>
       </ul>
@@ -44,7 +45,7 @@
       <h2>3. 设备权限的使用</h2>
       <ul>
         <li><strong>位置（仅使用 App 期间）：</strong>仅在首次设置或你在设置中轻点“使用我的位置”时获取一次，用于在本机找到离你最近的城市，以便按当地气候安排种植时间。本应用只保存你选定的城市，<strong>不保存、不上传你的位置坐标</strong>，也不会在后台获取位置。你可以拒绝授权，改为手动搜索城市。</li>
-        <li><strong>照片：</strong>通过系统照片选择器，仅读取你主动选择的那一张图片，作为收成记录的照片保存在本机。本应用无法访问你的其他照片。</li>
+        <li><strong>照片：</strong>通过系统照片选择器，仅读取你主动选择的那一张图片，作为收成记录的照片保存在本机，并随菜园数据同步到你自己的 iCloud（见第 2 节）。本应用无法访问你的其他照片。</li>
         <li><strong>通知：</strong>如果你开启“养护提醒”并允许通知，本应用会在有养护任务的日子，于早上 8:00 在本机发出一条本地通知，列出当天要做的养护。如果你开启“天气预警”，本应用会在霜冻、寒潮、大雪、酷热、暴雨或大风到来的前一晚 18:00 发出提醒，台风则提前两晚提醒；当天气有利于你所种作物上的某种病虫害时，也会在 18:00 提醒，同一种病虫害 7 天内只提醒一次。这些通知都在本机根据已下载的天气预报生成，不经过任何服务器；你可以随时在应用设置或系统设置中关闭。</li>
       </ul>
 
@@ -64,10 +65,10 @@
       <p>本应用不面向 13 岁以下儿童，也不会有意收集任何儿童的个人信息。</p>
 
       <h2>9. 你的权利</h2>
-      <p>所有数据都保存在你的设备上，你可以随时在应用内编辑或删除任意菜地、种植和收成记录，删除本应用即会清除全部数据。由于我们不持有你的数据，无法也不需要为你提供数据查询或删除服务。</p>
+      <p>所有数据都保存在你的设备上，以及（登录 iCloud 时）你自己的 iCloud 账户中。你可以随时在应用内编辑或删除任意菜地、种植和收成记录，删除会同步到你的其他设备。删除本应用会清除本机上的数据，iCloud 中的数据可按第 2 节的方法删除。由于我们不持有你的数据，无法也不需要为你提供数据查询或删除服务。</p>
 
       <h2>10. 政策更新</h2>
-      <p>如本政策发生变更（例如将来加入云同步），我们将在本页面发布更新后的版本并修改生效日期，重大变更会在应用更新说明中提示。</p>
+      <p>如本政策发生变更，我们将在本页面发布更新后的版本并修改生效日期，重大变更会在应用更新说明中提示。</p>
 
       <h2>11. 联系我们</h2>
       <p>如对本隐私政策有任何疑问，请通过 <a href="https://github.com/YPLiang19/privacy-policy/issues">GitHub Issues</a> 联系我们。</p>
@@ -75,21 +76,22 @@
 
     <article class="doc" id="en" lang="en">
       <h1>Privacy Policy</h1>
-      <p class="meta">Applies to: Square Inch Garden for iOS　Effective date: October 5, 2026</p>
+      <p class="meta">Applies to: Square Inch Garden for iOS　Effective date: October 8, 2026</p>
 
-      <p>This policy explains how Square Inch Garden (“the App”) handles your information. In short: <strong>the App does not collect, upload, or sell any personal data.</strong> Your gardens, plantings, care tasks and harvest records stay on your own device, and we cannot access them.</p>
+      <p>This policy explains how Square Inch Garden (“the App”) handles your information. In short: <strong>the App does not collect or sell any personal data.</strong> Your gardens, plantings, care tasks and harvest records are stored on your own device and, when you are signed in to iCloud, in the private area of your own iCloud account. We cannot access them.</p>
 
       <h2>1. Information we do not collect</h2>
       <ul>
         <li>No sign-up is required. The App never asks for your name, email, phone number, or any other personal information.</li>
-        <li>The App has no servers of its own, contains no third-party analytics, advertising, crash reporting, or tracking SDKs, and sends nothing over the network apart from asking Apple Weather for your chosen city’s forecast (see section 6).</li>
+        <li>The App has no servers of its own, contains no third-party analytics, advertising, crash reporting, or tracking SDKs, and sends nothing over the network apart from asking Apple Weather for your chosen city’s forecast (see section 6) and storing your garden data in your own iCloud (see section 2).</li>
         <li>We do not track you across apps or websites owned by other companies.</li>
       </ul>
 
-      <h2>2. Data stored on your device</h2>
+      <h2>2. Where your data is stored</h2>
       <ul>
         <li><strong>Garden data</strong> — your chosen city and its climate figures, the temperatures and sun hours you set for a balcony, beds and containers (including grow-light settings), plantings, care tasks, harvest records (weights and dates) and any photos you add to harvests — is stored locally in the App’s data on this device.</li>
-        <li><strong>No cloud sync:</strong> the App currently does not sync data to iCloud or any server. Deleting the App deletes this data, and it does not move to a new device automatically.</li>
+        <li><strong>iCloud sync:</strong> if your device is signed in to iCloud, the garden data above is stored with Apple’s CloudKit in <strong>the private database of your own iCloud account</strong> and kept in sync across devices signed in to the same Apple Account, so it comes back on a new device. Apple stores and protects it under the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>, and it counts toward your iCloud storage. Only devices signed in to your Apple Account can read it; we cannot view or download it. To hear about changes made on your other devices promptly, the App registers for Apple Push Notification service; these silent notifications only say that something changed, carry none of your garden data, and never appear on screen. The weather cache and App settings are not synced.</li>
+        <li><strong>Turning sync off or deleting data in iCloud:</strong> you can stop the App using iCloud in iPhone Settings &gt; [your name] &gt; iCloud; new changes then stay on the device. To delete the data stored in iCloud, first delete the App from all your devices, then go to Settings &gt; [your name] &gt; iCloud &gt; Manage Account Storage &gt; Square Inch Garden; a device that still has the App would sync its data back up. Without iCloud, your data is only on this device and deleting the App deletes it.</li>
         <li><strong>Weather cache</strong> — the forecast and each day’s weather for your chosen city — is stored on this device to show the weather, warnings and pest and disease alerts, and for the Home Screen widget.</li>
         <li><strong>App settings</strong>, such as whether care reminders and weather warnings are on, are stored locally.</li>
       </ul>
@@ -97,7 +99,7 @@
       <h2>3. Device permissions</h2>
       <ul>
         <li><strong>Location (while using the App):</strong> requested only once during setup, or when you tap “Use my location” in Settings, to find the nearest city on your device so planting dates match your local climate. The App keeps only the city you choose; <strong>your coordinates are never stored or uploaded</strong>, and location is never used in the background. You can decline and search for your city instead.</li>
-        <li><strong>Photos:</strong> through the system photo picker, the App reads only the single image you choose and stores it on this device as a harvest photo. The App cannot access your other photos.</li>
+        <li><strong>Photos:</strong> through the system photo picker, the App reads only the single image you choose and stores it on this device as a harvest photo, and it syncs to your own iCloud with your garden data (see section 2). The App cannot access your other photos.</li>
         <li><strong>Notifications:</strong> if care reminders are on and you allow notifications, the App schedules one local notification on your device at 8:00 on each day that has care to do, listing that day’s care. If weather warnings are on, the App also notifies you at 18:00 the evening before a frost, cold snap, heavy snow, extreme heat, heavy rain or strong wind, two evenings before a tropical storm, and at 18:00 when the weather favours a pest or disease on the crops you are growing (no more than once a week for each). All of these are generated on the device from the downloaded forecast and never pass through any server; you can turn them off at any time in the App’s settings or in the system settings.</li>
       </ul>
 
@@ -117,10 +119,10 @@
       <p>The App is not directed at children under 13 and does not knowingly collect personal information from children.</p>
 
       <h2>9. Your rights</h2>
-      <p>All data lives on your device. You can edit or delete any bed, planting or harvest record in the App at any time, and deleting the App removes all of it. Since we hold none of your data, there is nothing for us to access or delete on your behalf.</p>
+      <p>All data lives on your device and, when you are signed in to iCloud, in your own iCloud account. You can edit or delete any bed, planting or harvest record in the App at any time, and deletions sync to your other devices. Deleting the App removes the data from this device; data in iCloud can be deleted as described in section 2. Since we hold none of your data, there is nothing for us to access or delete on your behalf.</p>
 
       <h2>10. Changes to this policy</h2>
-      <p>If this policy changes (for example, if cloud sync is added in the future), we will post the updated version on this page and revise the effective date. Significant changes will be noted in the App’s release notes.</p>
+      <p>If this policy changes, we will post the updated version on this page and revise the effective date. Significant changes will be noted in the App’s release notes.</p>
 
       <h2>11. Contact</h2>
       <p>If you have any questions about this policy, please contact us via <a href="https://github.com/YPLiang19/privacy-policy/issues">GitHub Issues</a>.</p>
