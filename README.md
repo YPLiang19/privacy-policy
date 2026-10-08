@@ -7,7 +7,7 @@
 - 支持：https://ypliang19.github.io/privacy-policy/square-inch-garden/
 - 隐私政策：https://ypliang19.github.io/privacy-policy/square-inch-garden/privacy.html
 
-## 我的花园 My Garden
+## 一盆一记 Pot by Pot
 
 - 支持：https://ypliang19.github.io/privacy-policy/my-garden/
 - 隐私政策：https://ypliang19.github.io/privacy-policy/my-garden/privacy.html
