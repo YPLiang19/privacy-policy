@@ -100,7 +100,7 @@
 
     <section id="contact">
       <h2>联系我们</h2>
-      <p>遇到问题或有建议，欢迎发邮件至 <a href="mailto:support@meetpengliang.com?subject=RightKeep">support@meetpengliang.com</a>，我们会尽快回复。也可以在 RightKeep 的“设置 &gt; 关于 &gt; 联系我们”中直接写信，邮件会自动带上 App 和系统版本，方便排查问题。</p>
+      <p>遇到问题或有建议，欢迎发邮件至 <a class="mail" data-user="support" data-host="meetpengliang.com">support [at] meetpengliang.com</a>，我们会尽快回复。也可以在 RightKeep 的“设置 &gt; 关于 &gt; 联系我们”中直接写信，邮件会自动带上 App 和系统版本，方便排查问题。</p>
     </section>
 
     <section id="en" lang="en">
@@ -122,7 +122,7 @@
         <summary>How do I export all my data or cancel a subscription?</summary>
         <p>Go to Settings &gt; Your data &gt; Export all data for a ZIP with CSV files and every original. To cancel a subscription, open the iPhone Settings app, tap your name, then Subscriptions, choose RightKeep and tap Cancel Subscription. You can keep using it until the end of the current period.</p>
       </details>
-      <p>Questions or feedback: <a href="mailto:support@meetpengliang.com?subject=RightKeep">support@meetpengliang.com</a> · <a href="privacy.html#en">Privacy Policy</a></p>
+      <p>Questions or feedback: <a class="mail" data-user="support" data-host="meetpengliang.com">support [at] meetpengliang.com</a> · <a href="privacy.html#en">Privacy Policy</a></p>
     </section>
   </main>
 
@@ -135,5 +135,13 @@
       </span>
     </div>
   </footer>
+  <script>
+    // The address is assembled in the browser so it never appears whole in the page source.
+    document.querySelectorAll("a.mail").forEach(function (a) {
+      var address = a.dataset.user + "@" + a.dataset.host;
+      a.href = "mailto:" + address + "?subject=RightKeep";
+      a.textContent = address;
+    });
+  </script>
 </body>
 </html>
