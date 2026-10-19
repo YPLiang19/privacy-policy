@@ -104,9 +104,7 @@
 
     <section id="contact">
       <h2>联系我们</h2>
-      <p>遇到问题或有建议，欢迎通过
-        <a href="https://github.com/YPLiang19/privacy-policy/issues">GitHub Issues</a>
-        反馈，我们会尽快回复。</p>
+      <p>遇到问题或有建议，欢迎发邮件至 <a class="mail" data-user="support" data-host="meetpengliang.com" data-subject="方寸菜园">support [at] meetpengliang.com</a>，我们会尽快回复。</p>
     </section>
   </main>
 
@@ -119,5 +117,13 @@
       </span>
     </div>
   </footer>
+  <script>
+    // The address is assembled in the browser so it never appears whole in the page source.
+    document.querySelectorAll("a.mail").forEach(function (a) {
+      var address = a.dataset.user + "@" + a.dataset.host;
+      a.href = "mailto:" + address + "?subject=" + encodeURIComponent(a.dataset.subject);
+      a.textContent = address;
+    });
+  </script>
 </body>
 </html>
