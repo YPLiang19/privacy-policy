@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>隐私政策 - RightKeep</title>
+  <meta name="description" content="RightKeep（iOS 购买凭证与保修期限管理应用）隐私政策：我们不收集任何个人数据，你的凭证和记录保存在你的设备和你自己的 iCloud 中。">
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="./"><img src="icon.png" alt="">RightKeep</a>
+      <nav class="links">
+        <a href="./#support">支持</a>
+        <a href="#en">English</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article class="doc" id="zh">
+      <h1>隐私政策</h1>
+      <p class="meta">适用于：RightKeep（iOS App）　生效日期：2026 年 10 月 19 日</p>
+
+      <p>本隐私政策说明 RightKeep（以下简称“本应用”）如何处理你的信息。简而言之：<strong>本应用不收集、不出售任何个人数据</strong>。你的购买凭证、商品、期限和退货维修记录保存在你自己的设备上；开启 iCloud 同步时，也会保存在你自己 iCloud 账户的私有空间里。开发者无法访问这些数据。</p>
+
+      <h2>1. 我们不收集的信息</h2>
+      <ul>
+        <li>本应用无需注册账号，不要求提供姓名、邮箱、手机号等任何个人信息。</li>
+        <li>本应用没有自己的服务器，不包含任何第三方统计、广告、崩溃收集或追踪 SDK。除把你的记录存入你自己的 iCloud（见第 2 节）外，本应用不会把任何数据发送到网络。</li>
+        <li>我们不会追踪你在其他公司的 App 或网站上的活动。</li>
+      </ul>
+
+      <h2>2. 你的数据保存在哪里</h2>
+      <ul>
+        <li><strong>你的记录：</strong>包括购买凭证原件（小票、发票的照片或 PDF）、保修卡和送货单等附加文件、从凭证中识别出的文字、购买信息（商家、日期、金额、国家、购买渠道）、商品信息（名称、品牌、型号、序列号、照片、备注）、退货与保修期限、退货维修记录和提醒设置，全部保存在本机的应用数据中，并启用 iOS 数据保护。</li>
+        <li><strong>iCloud 同步：</strong>如果你在设备上登录了 iCloud，并且没有在本应用设置中关闭同步，上述记录会通过 Apple 的 CloudKit 保存在<strong>你自己 iCloud 账户的私有数据库</strong>中，并在登录同一 Apple 账户的设备之间同步。这些数据由 Apple 按 <a href="https://www.apple.com/legal/privacy/">Apple 隐私政策</a>存储和保护，占用你的 iCloud 储存空间，只有登录你 Apple 账户的设备能读取，开发者无法查看或下载。为了及时收到其他设备上的修改，本应用会注册 Apple 推送通知服务；这类静默通知只提示“有新变化”，不含你的记录内容。</li>
+        <li><strong>仅保存在本机的设置：</strong>常用购物国家、App 锁开关、每月摘要开关、写信时的署名等，只保存在本机，不会同步。</li>
+        <li><strong>小组件、Spotlight 与分享扩展：</strong>主屏幕和锁屏小组件读取本机上的一份小文件，内含最近几项期限的商品名称、期限名称和日期；开启 App 锁时不写入商品名称。本应用会把商品名称、品牌、型号、序列号和商家加入本机的 Spotlight 索引，方便你在系统搜索中找到；开启 App 锁时不建立索引。你从其他 App 分享给本应用的文件，会暂存在本机的共享文件夹中，本应用读取后即删除。</li>
+        <li><strong>删除数据：</strong>你可以在本应用中随时删除任何记录，删除会同步到你的其他设备。如需删除已存到 iCloud 的数据，请先在所有设备上删除本应用，再在“设置 &gt; [你的名字] &gt; iCloud &gt; 管理账户储存空间 &gt; RightKeep”中删除。未开启 iCloud 同步时，删除本应用会同时删除全部数据。</li>
+      </ul>
+
+      <h2>3. 凭证识别</h2>
+      <p>识别小票、发票和商品标签上的文字，全部在你的设备上完成，使用 Apple 的 Vision 框架；在支持 Apple 智能的设备上，本应用还会请设备上的 Apple 智能模型帮助整理商家、日期和金额。这些处理都在本机进行，<strong>凭证和照片不会被上传到任何服务器</strong>。</p>
+
+      <h2>4. 设备权限的使用</h2>
+      <ul>
+        <li><strong>相机：</strong>仅在你选择扫描凭证、拍摄商品照片或扫描商品标签时使用，拍下的内容保存在本机（并按第 2 节同步到你自己的 iCloud）。</li>
+        <li><strong>照片：</strong>通过系统照片选择器，只读取你主动选择的图片，本应用无法访问你的其他照片。</li>
+        <li><strong>通知：</strong>如果你为期限开启提醒或保留“每月摘要”，并允许通知，本应用会在本机安排本地通知，提醒你期限即将到期，或在每月 1 日列出当月到期的期限。这些通知在本机生成，不经过任何服务器；开启 App 锁时，每月摘要不显示商品名称。</li>
+        <li><strong>Face ID / Touch ID：</strong>仅在你开启 App 锁时用于解锁本应用。验证由 iOS 完成，本应用无法获取你的面部或指纹数据。</li>
+      </ul>
+
+      <h2>5. 法定期限与法律规则</h2>
+      <p>本应用计算法定退货和保修期限所用的法律规则随应用一起安装，在本机使用，不会联网下载，也不会发送你的购买信息。计算结果仅供参考，不构成法律意见。</p>
+
+      <h2>6. 你主动导出和发送的内容</h2>
+      <p>当你选择分享凭证原件、导出售后材料 PDF、导出全部数据或给商家写信时，本应用会在本机生成相应文件，并通过系统分享面板或“邮件”交给你选择的 App 或收件人。发送给谁、发送什么由你决定；本应用不会自动发送任何内容。生成的临时文件会在分享结束后删除。</p>
+
+      <h2>7. 订阅与付款</h2>
+      <p>如本应用提供订阅，购买通过 Apple App Store 完成，付款、续订和退款均由 Apple 处理，适用 <a href="https://www.apple.com/legal/privacy/">Apple 隐私政策</a>。本应用只通过 Apple 的 StoreKit 在本机验证你是否拥有有效的订阅，无法获取你的 Apple 账户、付款方式或账单信息。</p>
+
+      <h2>8. 数据共享</h2>
+      <p>我们不与任何第三方共享、出售或出租你的数据，因为我们根本不接触你的数据。</p>
+
+      <h2>9. 儿童隐私</h2>
+      <p>本应用不面向 13 岁以下儿童，也不会有意收集儿童的个人信息。</p>
+
+      <h2>10. 你的权利</h2>
+      <p>你的全部数据都在你的设备上，以及（开启同步时）你自己的 iCloud 中。你可以随时在本应用中查看、修改、删除任何记录，也可以在“设置 &gt; 你的数据 &gt; 导出全部数据”中导出全部记录和原件。由于我们不持有你的任何数据，我们无法、也无需代你访问或删除数据。</p>
+
+      <h2>11. 政策更新</h2>
+      <p>如本政策有更新，我们会在本页面发布新版本并更新生效日期；重要变更会在应用的更新说明中提示。</p>
+
+      <h2>12. 联系我们</h2>
+      <p>如对本隐私政策有任何疑问，请通过 <a href="https://github.com/YPLiang19/privacy-policy/issues">GitHub Issues</a> 联系我们。</p>
+    </article>
+
+    <article class="doc" id="en" lang="en">
+      <h1>Privacy Policy</h1>
+      <p class="meta">Applies to: RightKeep for iOS　Effective date: October 19, 2026</p>
+
+      <p>This policy explains how RightKeep (“the App”) handles your information. In short: <strong>the App does not collect or sell any personal data.</strong> Your receipts, items, deadlines and return and repair records are stored on your own device and, with iCloud sync on, in the private area of your own iCloud account. We cannot access them.</p>
+
+      <h2>1. Information we do not collect</h2>
+      <ul>
+        <li>The App needs no account and never asks for your name, email address, phone number or any other personal information.</li>
+        <li>The App has no server of its own and contains no third-party analytics, advertising, crash-reporting or tracking SDKs. Apart from saving your records to your own iCloud (section 2), it sends no data over the network.</li>
+        <li>We do not track you across apps or websites owned by other companies.</li>
+      </ul>
+
+      <h2>2. Where your data is stored</h2>
+      <ul>
+        <li><strong>Your records:</strong> original receipts and invoices (photos or PDFs), extra files such as warranty cards and delivery notes, text recognised from receipts, purchase details (shop, date, amount, country, channel), item details (name, brand, model, serial number, photo, notes), return and warranty deadlines, return and repair history, and reminder settings are stored in the App’s data on your device, with iOS data protection.</li>
+        <li><strong>iCloud sync:</strong> if you are signed in to iCloud and have not turned sync off in the App’s settings, these records are stored through Apple’s CloudKit in <strong>the private database of your own iCloud account</strong> and synced between devices signed in to the same Apple Account. Apple stores and protects this data under the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>; it uses your iCloud storage, only devices signed in to your Apple Account can read it, and we cannot view or download it. To receive changes made on your other devices promptly, the App registers for Apple Push Notification service; these silent notifications only signal that something changed and contain none of your records.</li>
+        <li><strong>Settings kept on this device only:</strong> your usual shopping country, the app lock, the monthly summary and the name you sign letters with stay on the device and are not synced.</li>
+        <li><strong>Widget, Spotlight and share extension:</strong> the Home Screen and Lock Screen widgets read a small file on your device with the item names, deadline names and dates of your next few deadlines; with the app lock on, item names are left out. The App adds item names, brands, models, serial numbers and shops to the on-device Spotlight index so you can find them in system search; with the app lock on, nothing is indexed. Files you share to the App from other apps wait in a shared folder on your device and are deleted once the App has read them.</li>
+        <li><strong>Deleting data:</strong> you can delete any record in the App at any time, and deletions sync to your other devices. To delete data stored in iCloud, first delete the App from all your devices, then go to Settings &gt; [your name] &gt; iCloud &gt; Manage Account Storage &gt; RightKeep. Without iCloud sync, deleting the App deletes all its data.</li>
+      </ul>
+
+      <h2>3. Receipt recognition</h2>
+      <p>Text on receipts, invoices and product labels is recognised entirely on your device using Apple’s Vision framework. On devices that support Apple Intelligence, the App also asks the on-device Apple Intelligence model to help pick out the shop, date and amount. All of this happens on the device; <strong>receipts and photos are never uploaded to any server.</strong></p>
+
+      <h2>4. Device permissions</h2>
+      <ul>
+        <li><strong>Camera:</strong> used only when you choose to scan a receipt, photograph an item or scan a product label. What you capture is stored on the device (and synced to your own iCloud as described in section 2).</li>
+        <li><strong>Photos:</strong> the system photo picker gives the App only the images you select; it cannot access your other photos.</li>
+        <li><strong>Notifications:</strong> if you turn on reminders for a deadline or keep the monthly summary on, and allow notifications, the App schedules local notifications on the device before deadlines end, or on the 1st of each month listing that month’s deadlines. They are created on the device and never pass through a server; with the app lock on, the monthly summary shows no item names.</li>
+        <li><strong>Face ID / Touch ID:</strong> used only to unlock the App when you turn on the app lock. iOS performs the check; the App never receives your face or fingerprint data.</li>
+      </ul>
+
+      <h2>5. Legal deadlines and legal rules</h2>
+      <p>The legal rules the App uses to calculate statutory return and guarantee periods are installed with the App and used on the device. They are not downloaded from the internet and your purchase details are not sent anywhere. Results are for information only and are not legal advice.</p>
+
+      <h2>6. Content you export and send</h2>
+      <p>When you share an original receipt, export a claim PDF, export all your data or write to a seller, the App creates the file on your device and hands it, through the system share sheet or Mail, to the app or recipient you choose. You decide what is sent and to whom; the App never sends anything automatically. Temporary files are deleted after sharing.</p>
+
+      <h2>7. Subscriptions and payments</h2>
+      <p>If the App offers subscriptions, they are purchased through the Apple App Store. Apple handles payment, renewal and refunds under the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>. The App only uses Apple’s StoreKit on the device to check whether you have a valid subscription; it cannot access your Apple Account, payment method or billing details.</p>
+
+      <h2>8. Data sharing</h2>
+      <p>We do not share, sell or rent your data to anyone, because we never have access to it.</p>
+
+      <h2>9. Children’s privacy</h2>
+      <p>The App is not directed at children under 13 and does not knowingly collect personal information from children.</p>
+
+      <h2>10. Your rights</h2>
+      <p>All your data lives on your device and, with sync on, in your own iCloud. You can view, edit or delete any record in the App at any time, and export all records and originals from Settings &gt; Your data &gt; Export all data. Since we hold none of your data, there is nothing for us to access or delete on your behalf.</p>
+
+      <h2>11. Changes to this policy</h2>
+      <p>If this policy changes, we will post the updated version on this page and revise the effective date. Significant changes will be noted in the App’s release notes.</p>
+
+      <h2>12. Contact</h2>
+      <p>If you have any questions about this policy, please contact us via <a href="https://github.com/YPLiang19/privacy-policy/issues">GitHub Issues</a>.</p>
+    </article>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      <span>© 2026 RightKeep</span>
+      <span><a href="./">首页</a> · <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">使用条款（EULA）</a></span>
+    </div>
+  </footer>
+</body>
+</html>

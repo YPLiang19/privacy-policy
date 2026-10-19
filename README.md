@@ -11,3 +11,8 @@
 
 - 支持：https://ypliang19.github.io/privacy-policy/my-garden/
 - 隐私政策：https://ypliang19.github.io/privacy-policy/my-garden/privacy.html
+
+## RightKeep
+
+- 支持：https://ypliang19.github.io/privacy-policy/rightkeep/
+- 隐私政策：https://ypliang19.github.io/privacy-policy/rightkeep/privacy.html
